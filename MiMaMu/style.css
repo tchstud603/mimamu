@@ -1,0 +1,136 @@
+body {
+    font-family: Arial;
+    background-color: #101010;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#top-bar {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 80px;
+
+    background-color: yellow;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 42px;
+
+    font-weight: bold;
+
+    color: black;
+}
+
+.game-container {
+    text-align: center;
+    background: rgb(32, 32, 32);
+
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#sentence-container {
+    font-size: 28px;
+    color: beige;
+    margin-bottom: 20px;
+}
+
+.word {
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.word-box {
+
+    width: 60px;
+    height: 45px;
+
+    background-color: #ffffff;
+
+    border: 2px solid #555;
+
+    border-radius: 10px;
+
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 8px;
+
+    color: rgb(16, 16, 16);
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.solved-word {
+
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 60px;
+
+    margin: 0 8px;
+
+    color: beige;
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.guess-area {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 25px;
+    color: beige;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#creator {
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+
+    color: rgba(211, 211, 211, 0.05);
+
+    margin: 10px;
+}
