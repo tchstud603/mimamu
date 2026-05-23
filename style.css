@@ -129,3 +129,69 @@ button {
     font-size: 32px;
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+
+    #top-bar {
+
+        font-size: 28px;
+        height: 60px;
+    }
+
+    body {
+
+        align-items: flex-start;
+
+        padding-top: 80px;
+    }
+
+    .game-container {
+
+        width: 95%;
+
+        padding: 15px;
+    }
+
+    #sentence-container {
+
+        font-size: 18px;
+    }
+
+    .word-box {
+
+        height: 40px;
+
+        margin: 4px;
+
+        font-size: 18px;
+    }
+
+    .solved-word {
+
+        font-size: 20px;
+
+        margin: 4px;
+
+        height: 40px;
+    }
+
+    input {
+
+        width: 60%;
+
+        font-size: 14px;
+    }
+
+    button {
+
+        font-size: 14px;
+
+        padding: 10px;
+    }
+
+    #message {
+
+        font-size: 24px;
+    }
+}
