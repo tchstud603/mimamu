@@ -40,14 +40,19 @@ body {
 
     padding: 30px;
     border-radius: 10px;
-    max-width: 50%;
+    width: 90%;
+    max-width: 900px;
 
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 img {
-    width: 650px;
+
+    width: 100%;
+    max-width: 650px;
+
     border-radius: 10px;
+
     margin-bottom: 20px;
 }
 
@@ -123,15 +128,4 @@ button {
     color: beige;
     font-size: 32px;
     font-weight: bold;
-}
-
-#creator {
-    position: fixed;
-
-    bottom: 0;
-    left: 0;
-
-    color: rgba(211, 211, 211, 0.05);
-
-    margin: 10px;
 }
